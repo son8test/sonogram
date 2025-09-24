@@ -1,7 +1,0 @@
-name: 'Run CTest'
-description: 'Run CTest in the build directory'
-runs:
-  using: "composite"
-  steps:
-    - name: Run CTest
-      run: ctest --test-dir build --output-on-failure
