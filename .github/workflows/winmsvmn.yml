@@ -25,3 +25,6 @@ jobs:
 
       - name: Build Release
         run: cmake --build build
+
+      - name: Run CTest (actions/ctest)
+        uses: ./.github/actions/ctest

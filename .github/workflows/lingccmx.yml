@@ -27,4 +27,5 @@ jobs:
       - name: Build ${{ matrix.build_type }}
         run: cmake --build build
 
-      - uses: ./.github/actions/ctest
+      - name: Run CTest (actions/ctest)
+        uses: ./.github/actions/ctest

@@ -8,7 +8,7 @@
 
 void son8::main( Args const &args ) try {
     char const *source = R"SON(
-hello-progra:
+hello-program:
     -echo "Hello, world!"
 ;
 )SON";
