@@ -4,11 +4,11 @@ runs:
   using: "composite"
   steps:
     - name: Run CTest (Ubuntu/macOS)
-    if: runner.os != 'Windows'
+      if: runner.os != 'Windows'
       shell: bash
       run: ctest --test-dir build --output-on-failure
 
     - name: Run CTest (Windows)
-    if: runner.os == 'Windows'
+      if: runner.os == 'Windows'
       shell: pwsh
       run: ctest --test-dir build --output-on-failure
