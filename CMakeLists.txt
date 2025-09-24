@@ -4,6 +4,6 @@ project( son8test VERSION 0.0.0 LANGUAGES CXX )
 set( SON8PROJ son8__${PROJECT_NAME} )
 
 set( testrepo sonogram )
-set( testhash 5153d1b3154e61ada3aeddff13bdcfaa53ea1660 )
+set( testhash e736815b5068690e2feb5682aac340239509066c )
 
 add_subdirectory( source )
