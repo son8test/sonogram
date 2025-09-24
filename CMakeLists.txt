@@ -7,3 +7,6 @@ set( testrepo sonogram )
 set( testhash db42ad3a3653d243f08f749760c44dd6b54aab0f )
 
 add_subdirectory( source )
+
+enable_testing( )
+add_subdirectory( test )
