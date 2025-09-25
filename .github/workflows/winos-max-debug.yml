@@ -15,7 +15,8 @@ jobs:
       - name: Setup MSVC environment
         uses: ilammy/msvc-dev-cmd@v1
 
-      - uses: ./.github/actions/configs
+      - name: Configs
+        uses: ./.github/actions/configs
         with:
           build_type: Debug
 
