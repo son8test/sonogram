@@ -4,11 +4,8 @@
 
 #include <son8/main.hxx>
 #include <stdexcept>
-#include <cassert>
-
 
 void son8::main( Args const & ) try {
-    assert( false && "test if it is correctly building in debug " );
     char const *source = R"SON(
 hello-program:
     -echo "Hello, world!"
