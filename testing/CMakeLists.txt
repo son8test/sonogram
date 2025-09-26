@@ -5,7 +5,7 @@ set( CMAKE_CXX_EXTENSIONS OFF )
 link_libraries( son8__mainland son8__sonogram_faceimpl )
 
 if ( MSVC )
-    add_compile_options( /W4 )
+    add_compile_options( /W4 /wd4455 )
 else( )
     add_compile_options( -Wall -Wextra -Wpedantic )
 endif( )
